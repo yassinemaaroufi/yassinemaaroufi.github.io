@@ -1,0 +1,12 @@
+# Site settings
+title: Yassine Maaroufi
+email: yassinemaaroufi@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Portfolio d'articles et de productions et CV de Yassine Maaroufi.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yassinemaaroufi.com" # the base hostname & protocol for your site
+twitter_username: yassinemaaroufi
+github_username:  yassinemaaroufi
+
+# Build settings
+markdown: kramdown
