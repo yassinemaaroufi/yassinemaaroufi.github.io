@@ -8,7 +8,6 @@ layout: default
 
   <ul class="post-list">
 	{% for post in site.posts %}
-	  {% if post.categories contains "fr" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -17,7 +16,6 @@ layout: default
 		  <!-- {{ post.excerpt }} -->
         </h2>
       </li>
-      {% endif %}
     {% endfor %}
   </ul>
 
