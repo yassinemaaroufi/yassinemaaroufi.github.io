@@ -10,8 +10,8 @@ layout: default
 	{% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
-    	 {% if post.meta %} • {{ page.meta }}{% endif %}
-		 {% if post.tech %} • {{ page.tech }}{% endif %}
+    	 {% if post.meta %} • {{ post.meta }}{% endif %}
+		 {% if post.tech %} • {{ post.tech }}{% endif %}
 		</span>
 
         <h2>
