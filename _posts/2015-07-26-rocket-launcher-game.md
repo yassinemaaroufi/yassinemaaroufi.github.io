@@ -14,4 +14,4 @@ Rocket Launcher Game Prototype in JS
 PhaserJS
 
 # Links
-[Github]:      https://github.com/yassinemaaroufi/Rocket-launcher-game
+[Github](https://github.com/yassinemaaroufi/Rocket-launcher-game)

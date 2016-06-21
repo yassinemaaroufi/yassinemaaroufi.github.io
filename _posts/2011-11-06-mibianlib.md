@@ -14,5 +14,5 @@ Open source options pricing library
 Scipy
 
 # Links
-[Github]:      https://github.com/yassinemaaroufi/MibianLib
-[Live Site]:   https://code.mibian.net
+[Github](https://github.com/yassinemaaroufi/MibianLib)
+[Live Site](https://code.mibian.net)
