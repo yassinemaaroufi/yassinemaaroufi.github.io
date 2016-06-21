@@ -1,10 +1,10 @@
 # Site settings
-title: Yassine Maaroufi
+title: Yassine Maaroufi - JS & Python Developer
 email: yassinemaaroufi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Portfolio d'articles et de productions et CV de Yassine Maaroufi.
+  Web development portfolio | Yassine Maaroufi
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yassinemaaroufi.com" # the base hostname & protocol for your site
+url: "http://yassinemaaroufi.github.io" # the base hostname & protocol for your site
 twitter_username: yassinemaaroufi
 github_username:  yassinemaaroufi
 
