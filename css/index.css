@@ -1,0 +1,9 @@
+body, pre, code {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+a:link, a:hover, a:active, a:visited {
+	text-decoration: underline dotted red;
+}

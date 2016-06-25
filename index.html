@@ -1,32 +1,113 @@
----
-layout: default
----
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Resume | Yassine MAAROUFI</title>
+		<!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css">-->
+		<link class="codestyle" rel="stylesheet" href="/css/normalize.css">
+		<link class="codestyle" rel="stylesheet" href="/css/solarized-light.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+		<link class="codestyle" rel="stylesheet" href="/css/index.css">
 
-<div class="home-div">
+	</head>
+	<body>
 
-  <h1 class="page-heading">Portfolio</h1>
+		<pre><code class="python">
 
-  <ul class="post-list">
-	{% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
-    	 {% if post.meta %} • {{ post.meta }}{% endif %}
-		 {% if post.tech %} • {{ post.tech }}{% endif %}
-		</span>
+"""
+Full Stack Developer
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		  <!-- {{ post.excerpt }} -->
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+Yassine MAAROUFI
+<a href=mailto:yassinemaaroufi@gmail.com>yassinemaaroufi@gmail.com</a>
++212 6 41 27 49 00
+<a href=github.com/yassinemaaroufi>github.com/yassinemaaroufi</a>
+Remote from Morocco (GMT)
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+Source: <a href=http://yassinemaaroufi.github.io>http://yassinemaaroufi.github.io</a>
+"""
 
-</div>
+import date
 
-<div class="about-div">
-  <h1 class="page-heading">A propos</h1>
-  Python and Javascript Developer
-</div>
+class Project:
+	def __init__(self, name, info, stack, url):
+		self.name = name
+		self.info = info
+		self.stack = stack
+		self.url = url
+
+# Previous Projects
+Project(
+	"LangApp Russian",
+	"Russian language learning native Android app",
+	"Android/Java",
+	"http://langapp.mibian.net/")
+Project(
+	"LangApp Russian v2",
+	"Russian language learning Cordova mobile app",
+	"JS/Cordova",
+	"null")
+Project(
+	"null",
+	"Custom Blogging Platform",
+	"Python, Web.py, Google App Engine",
+	"http://langapp.mibian.net/blog/")
+Project(
+	"null",
+	"Financial Data Scraper",
+	"Python, Web.py, Google App Engine",
+	"null")
+Project(
+	"null",
+	"Rocket Launch Game Prototype"
+	"PhaserJS Game Engine",
+	"https://github.com/yassinemaaroufi/Rocket-launcher-game")
+Project(
+	"Hellsinkies",
+	"Puzzle game",
+	"AS3/Flash, Apache Flex",
+	"http://games.mibian.net/hellsinkies")
+Project(
+	"Invading Space",
+	"Retro shoot them up",
+	"Plain JS, HTML Canvas",
+	"http://games.mibian.net/invading-space")
+
+technology = {
+	"Back-end": ["Python", "Django", "Flask"],
+	"Front-end": ["Jquery", "Angular"],
+	"Database": ["MySQL", "SQLite", "CouchDB", "Google Datastore"],
+	"Mobile": ["Android/Java", "Cordova", "Ionic"],
+	"Cloud Hosting": ["Google App Engine", "Heroku"],
+	"Languages": ["JS", "Python", "PHP", "C++", "Bash", "VBA", "AS3/Flash", "Haskell"],
+	"Tools": ["Yeoman", "Git", "Vagrant"],
+	"OS": ["Linux", "Mac OS X"]
+}
+
+natural_languages = [
+	{ "name": "English", "level": "fluent"},
+	{ "name": "French", "level": "fluent"},
+	{ "name": "Arabic", "level": "fluent"},
+	{ "name": "Russian", "level": "intermediate"},
+	{ "name": "Spanish", "level": "intermediate"},
+	{ "name": "Mandarin", "level": "beginner"},
+]
+
+# Work Experience
+for date in range("Oct 2015", "Now"): Finance Manager in industrial company # 1500+ employees
+for date in range("Dec 2014", "Oct 2015"): Project Manager in investment fund # 10 employees
+for date in range("Jan 2014", "Dec 2014"): Finance Manager in retail company # 400+ employees
+
+# Education
+for date in range(2013, 2014): Master degree in Financial Engineering
+for date in range(2010, 2012): Master degree in Finance and Banking
+for date in range(2007, 2010): Bachelor degree in Business Administration
+for date in range(2005, 2007): Graphic Design School
+
+		</code></pre>
+
+	</body>
+</html>
+
