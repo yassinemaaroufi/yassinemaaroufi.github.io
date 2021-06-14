@@ -1,1 +1,3 @@
-Yassine Maaroufi Web Development Portfolio
+Yassine Maaroufi's Portfolio
+
+yassinemaaroufi@gmail.com
